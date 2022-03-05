@@ -38,9 +38,9 @@
                         </a>
                     </div>
                     <a class="active item" href="{$GET_HOME}">Home</a>
-                    <a class="item">Work</a>
-                    <a class="item" href="{$GET_CARRINHO}">Carrinho</a>
-                    <a class="item">Careers</a>
+                    <a class="item" href="{$PAG_CARRINHO}">Carrinho</a>
+                    <a class="item" href="{$PAG_CONTATO}">Contato</a>
+                    <a class="item" href="{$PAG_CONTA}">Conta</a>
                     <div class="right item">
                         <a class="ui inverted button">Log in</a>
                         <a class="ui inverted button">Sign Up</a>

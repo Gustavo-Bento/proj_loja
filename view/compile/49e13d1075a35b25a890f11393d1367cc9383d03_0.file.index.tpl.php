@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-05 03:30:38
+/* Smarty version 3.1.44, created on 2022-03-05 03:47:21
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_6222cb4ec16e21_76956859',
+  'unifunc' => 'content_6222cf39144a02_74813578',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49e13d1075a35b25a890f11393d1367cc9383d03' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\index.tpl',
-      1 => 1646447423,
+      1 => 1646448438,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6222cb4ec16e21_76956859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6222cf39144a02_74813578 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 
 <head>
@@ -68,10 +68,12 @@ function content_6222cb4ec16e21_76956859 (Smarty_Internal_Template $_smarty_tpl)
                     </div>
                     <a class="active item" href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
 ">Home</a>
-                    <a class="item">Work</a>
-                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['GET_CARRINHO']->value;?>
+                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
 ">Carrinho</a>
-                    <a class="item">Careers</a>
+                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
+">Contato</a>
+                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTA']->value;?>
+">Conta</a>
                     <div class="right item">
                         <a class="ui inverted button">Log in</a>
                         <a class="ui inverted button">Sign Up</a>

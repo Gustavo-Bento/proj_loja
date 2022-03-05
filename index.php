@@ -12,7 +12,11 @@ $smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
 
 $smarty->assign('GET_HOME', Rotas::get_SiteHOME());
 
-$smarty->assign('GET_CARRINHO', Rotas::pag_Carrinho());
+$smarty->assign('PAG_CARRINHO', Rotas::pag_Carrinho());
+
+$smarty->assign('PAG_CONTA', Rotas::pag_Conta());
+
+$smarty->assign('PAG_CONTATO', Rotas::pag_Contato());
 
 //display é necessario estar por ultimo no documento.
 $smarty->display('index.tpl');

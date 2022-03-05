@@ -22,6 +22,14 @@ Class Rotas{
     static function pag_Carrinho(){
         return self::get_SiteHOME().'/carrinho';
     }
+    static function pag_Contato(){
+        return self::get_SiteHOME().'/contato';
+    }
+
+    static function pag_Conta(){
+        return self::get_SiteHOME().'/conta';
+    }
+
 
     static function get_Pagina(){
         if(isset($_GET['pag'])){
