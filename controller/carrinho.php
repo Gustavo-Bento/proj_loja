@@ -1,1 +1,7 @@
-<h2>Esta é a página do carrinho</h2>
+<?php
+
+$smarty = new Template();
+$smarty -> assign('CARRINHO', 'Página de Carrinho');
+$smarty -> display('carrinho.tpl');
+
+?>

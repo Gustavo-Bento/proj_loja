@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-14 01:57:53
+/* Smarty version 3.1.44, created on 2022-03-14 03:13:27
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_622e931173f960_97730680',
+  'unifunc' => 'content_622ea4c769c989_53436082',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49e13d1075a35b25a890f11393d1367cc9383d03' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\index.tpl',
-      1 => 1647219465,
+      1 => 1647224003,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_622e931173f960_97730680 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622ea4c769c989_53436082 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 
 <head>
@@ -73,14 +73,6 @@ function content_622e931173f960_97730680 (Smarty_Internal_Template $_smarty_tpl)
 " class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
   <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_PRODUTOS']->value;?>
 " class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-shopping-bag"></i></a>
-  <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
-      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
-      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
-      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
-    </div>
-  </div>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
     <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
   </a>
