@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-14 00:29:38
+/* Smarty version 3.1.44, created on 2022-03-14 03:40:07
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\contato.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_622e7e62952c69_62188117',
+  'unifunc' => 'content_622eab07035c22_06873051',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b678b5d639b49d33114fef021c3493f192bfd1c7' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\contato.tpl',
-      1 => 1647214175,
+      1 => 1647225601,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_622e7e62952c69_62188117 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622eab07035c22_06873051 (Smarty_Internal_Template $_smarty_tpl) {
 ?> <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="container w3-container w3-content4" style="max-width:1400px;margin-top:80px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
     <div class="w3-row w3-padding-32">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-14 03:12:33
+/* Smarty version 3.1.44, created on 2022-03-14 03:34:46
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\produtos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_622ea491f2ec89_19552228',
+  'unifunc' => 'content_622ea9c6deb9c1_83924019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '587cc501e1a5310b224ef4014185e650011c20d2' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\produtos.tpl',
-      1 => 1647223271,
+      1 => 1647225283,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_622ea491f2ec89_19552228 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622ea9c6deb9c1_83924019 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-    <div class="container">
+<div class="container w3-container w3-content" style="max-width:1400px;margin-top:80px">
 <div class="row">
   <div class="col-sm-8">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -30,6 +30,10 @@ Class Rotas{
         return self::get_SiteHOME().'/conta';
     }
 
+    static function pag_Clientes(){
+        return self::get_SiteHOME().'/clientes';
+    }
+
     static function pag_Produtos(){
         return self::get_SiteHOME().'/produtos';
     }

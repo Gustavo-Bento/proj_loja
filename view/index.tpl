@@ -32,6 +32,7 @@
   <a href="{$PAG_CONTA}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
   <a href="{$PAG_CONTATO}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
   <a href="{$PAG_PRODUTOS}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-shopping-bag"></i></a>
+  <a href="{$PAG_CLIENTES}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-hand-peace-o"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
     <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
   </a>
@@ -42,9 +43,11 @@
         //var_dump(Rotas::$pag);
         {/php}
   <!-- First Photo Grid-->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-        <h2 class="w3-wide w3-center">MENU</h2>
-        <p class="w3-opacity w3-center"><i>veja nossas promoções!</i></p>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1400px;margin-top:80px" id="contact">
+        <div id="services" class="container-fluid text-center">
+        <h2>PRODUTOS EM DESTAQUE</h2>
+        <h4>veja nossas promoções!</h4>
+        <br>
     <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
         <img src="imagens/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
@@ -96,7 +99,7 @@
   </div>
 
         <div class="ui vertical stripe segment">
-            <div class="ui text container">
+            <div class="ui text container w3-container w3-content w3-padding-64">
                 <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
                 <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing
                     nothing by providing massive amounts of whitespace and generic content that can seem massive,

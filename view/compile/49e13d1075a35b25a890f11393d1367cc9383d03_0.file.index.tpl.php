@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-14 03:13:27
+/* Smarty version 3.1.44, created on 2022-03-14 04:31:16
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_622ea4c769c989_53436082',
+  'unifunc' => 'content_622eb704141667_66851739',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49e13d1075a35b25a890f11393d1367cc9383d03' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\index.tpl',
-      1 => 1647224003,
+      1 => 1647228672,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_622ea4c769c989_53436082 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622eb704141667_66851739 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 
 <head>
@@ -73,6 +73,8 @@ function content_622ea4c769c989_53436082 (Smarty_Internal_Template $_smarty_tpl)
 " class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
   <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_PRODUTOS']->value;?>
 " class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-shopping-bag"></i></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CLIENTES']->value;?>
+" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-hand-peace-o"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
     <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
   </a>
@@ -83,9 +85,11 @@ function content_622ea4c769c989_53436082 (Smarty_Internal_Template $_smarty_tpl)
         //var_dump(Rotas::$pag);
         ?>
   <!-- First Photo Grid-->
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-        <h2 class="w3-wide w3-center">MENU</h2>
-        <p class="w3-opacity w3-center"><i>veja nossas promoções!</i></p>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1400px;margin-top:80px" id="contact">
+        <div id="services" class="container-fluid text-center">
+        <h2>PRODUTOS EM DESTAQUE</h2>
+        <h4>veja nossas promoções!</h4>
+        <br>
     <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
         <img src="imagens/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
@@ -137,7 +141,7 @@ function content_622ea4c769c989_53436082 (Smarty_Internal_Template $_smarty_tpl)
   </div>
 
         <div class="ui vertical stripe segment">
-            <div class="ui text container">
+            <div class="ui text container w3-container w3-content w3-padding-64">
                 <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
                 <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing
                     nothing by providing massive amounts of whitespace and generic content that can seem massive,

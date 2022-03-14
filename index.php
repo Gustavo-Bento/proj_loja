@@ -18,6 +18,8 @@ $smarty->assign('PAG_CONTA', Rotas::pag_Conta());
 
 $smarty->assign('PAG_PRODUTOS', Rotas::pag_Produtos());
 
+$smarty->assign('PAG_CLIENTES', Rotas::pag_Clientes());
+
 $smarty->assign('PAG_CONTATO', Rotas::pag_Contato());
 
 $smarty->assign('TITULO_SITE', Config::SITE_NOME);

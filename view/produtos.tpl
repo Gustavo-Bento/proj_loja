@@ -1,5 +1,5 @@
 
-    <div class="container">
+<div class="container w3-container w3-content" style="max-width:1400px;margin-top:80px">
 <div class="row">
   <div class="col-sm-8">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
