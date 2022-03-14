@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-03-05 03:47:21
+/* Smarty version 3.1.44, created on 2022-03-14 01:57:53
   from 'C:\Users\Gustavo\Desktop\PROJETOS\WEB PHP\XAMPP\htdocs\proj_loja\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_6222cf39144a02_74813578',
+  'unifunc' => 'content_622e931173f960_97730680',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49e13d1075a35b25a890f11393d1367cc9383d03' => 
     array (
       0 => 'C:\\Users\\Gustavo\\Desktop\\PROJETOS\\WEB PHP\\XAMPP\\htdocs\\proj_loja\\view\\index.tpl',
-      1 => 1646448438,
+      1 => 1647219465,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6222cf39144a02_74813578 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622e931173f960_97730680 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 
 <head>
     <!-- Standard Meta -->
+    <title><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
+</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -38,168 +40,109 @@ function content_6222cf39144a02_74813578 (Smarty_Internal_Template $_smarty_tpl)
  src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /semantic/semantic.min.js"><?php echo '</script'; ?>
 >
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="produtos/produtos.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="https://www.w3schools.com/lib/w3.js"><?php echo '</script'; ?>
+>
 
 </head>
 
-<body class="pushable">
+<body class="pusher">
 
-
-   
-
-    <!-- Page Contents -->
-    <div class="pusher">
-        <div class="ui inverted vertical masthead center aligned fixed segment">
-
-            <div class="ui container">
-                <div class="ui large secondary inverted pointing menu">
-                    <div class="ui left demo vertical inverted sidebar labeled icon menu">
-                        <a class="item">
-                            <i class="home icon"></i>
-                            Home
-                        </a>
-                        <a class="item">
-                            <i class="block layout icon"></i>
-                            Topics
-                        </a>
-                        <a class="item">
-                            <i class="smile icon"></i>
-                            Friends
-                        </a>
-                    </div>
-                    <a class="active item" href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
-">Home</a>
-                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
-">Carrinho</a>
-                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
-">Contato</a>
-                    <a class="item" href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTA']->value;?>
-">Conta</a>
-                    <div class="right item">
-                        <a class="ui inverted button">Log in</a>
-                        <a class="ui inverted button">Sign Up</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="ui text container">
-                <h1 class="ui inverted header">
-                    Gustavo Developer
-                </h1>
-                <h2>Do whatever you want when you want to.</h2>
-                <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-            </div>
-
-        </div>
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i><img src="imagens/logo/Bentinho.png" style="width:20px" class="w3-circle"></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
+" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-shopping-cart"></i></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTA']->value;?>
+" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
+" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+  <a href="<?php echo $_smarty_tpl->tpl_vars['PAG_PRODUTOS']->value;?>
+" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-shopping-bag"></i></a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">One new friend request</a>
+      <a href="#" class="w3-bar-item w3-button">John Doe posted on your wall</a>
+      <a href="#" class="w3-bar-item w3-button">Jane likes your post</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="/w3images/avatar2.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+  </a>
+ </div>
+</div>
         <?php 
         Rotas::get_Pagina();
         //var_dump(Rotas::$pag);
         ?>
-
-        <div class="ui vertical stripe segment">
-            <div class="ui middle aligned stackable grid container">
-                <div class="row">
-                    <div class="eight wide column">
-                    <---->
-                        <h3 class="ui header">We Help Companies and Companions</h3>
-                        <p>We can give your company superpowers to do things that they never thought possible. Let us
-                            delight your customers and empower your needs...through pure data analytics.</p>
-                        <h3 class="ui header">We Make Bananas That Can Dance</h3>
-                        <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-                            bioengineered.</p>
-                    </div>
-                    <div class="six wide right floated column">
-                        <img src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
-/imagens/white-image.jpg" class="ui large bordered rounded image">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="center aligned column">
-                        <a class="ui huge button">Check Them Out</a>
-                    </div>
-                </div>
-            </div>
+  <!-- First Photo Grid-->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">MENU</h2>
+        <p class="w3-opacity w3-center"><i>veja nossas promoções!</i></p>
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+        <img src="imagens/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
-
-        <div class="ui items container segment">
-            <div class="item">
-                <div class="ui small image">
-                    <img src="/images/wireframe/image.png">
-                </div>
-                <div class="content">
-                    <div class="header">Arrowhead Valley Camp</div>
-                    <div class="meta">
-                        <span class="price">$1200</span>
-                        <span class="stay">1 Month</span>
-                    </div>
-                    <div class="description">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ui small image">
-                    <img src="/images/wireframe/image.png">
-                </div>
-                <div class="content">
-                    <div class="header">Buck's Homebrew Stayaway</div>
-                    <div class="meta">
-                        <span class="price">$1000</span>
-                        <span class="stay">2 Weeks</span>
-                    </div>
-                    <div class="description">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="ui small image">
-                    <img src="/images/wireframe/image.png">
-                </div>
-                <div class="content">
-                    <div class="header">Astrology Camp</div>
-                    <div class="meta">
-                        <span class="price">$1600</span>
-                        <span class="stay">6 Weeks</span>
-                    </div>
-                    <div class="description">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
         </div>
-
-        <div class="ui four column relaxed grid">
-            <div class="column">
-                <img>
-            </div>
-            <div class="column">
-                <img>
-            </div>
-            <div class="column">
-                <img>
-            </div>
-            <div class="column">
-                <img>
-            </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+        <img src="imagens/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
         </div>
-
-        <div class="ui vertical stripe quote segment">
-            <div class="ui equal width stackable internally celled grid">
-                <div class="center aligned row">
-                    <div class="column">
-                        <h3>"What a Company"</h3>
-                        <p>That is what they all say about us</p>
-                    </div>
-                    <div class="column">
-                        <h3>"I shouldn't have gone with their competitor."</h3>
-                        <p>
-                            <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun
-                            Officer Acme Toys
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
+        <div class="w3-third w3-container">
+        <img src="imagens/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+        <img src="../media/images/home/imagem1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+        <img src="../media/images/home/imagem2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+        </div>
+        <div class="w3-third w3-container">
+        '<img src="../media/images/home/imagem3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>'
+        </div>
+    </div>
+  </div>
 
         <div class="ui vertical stripe segment">
             <div class="ui text container">

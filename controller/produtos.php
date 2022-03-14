@@ -1,1 +1,7 @@
-<h2>Esta é a página de produtos</h2>
+<?php
+
+$smarty = new Template();
+$smarty -> assign('PRODUTOS', 'Página de Produtos');
+$smarty -> display('produtos.tpl');
+
+?>

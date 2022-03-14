@@ -1,1 +1,7 @@
-<h2>Esta é a página do contato</h2>
+<?php
+
+$smarty = new Template();
+$smarty -> assign('CONTATO', 'Página de Contatos');
+$smarty -> display('contato.tpl');
+
+?>

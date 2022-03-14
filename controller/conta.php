@@ -1,1 +1,7 @@
-<h2>Esta é a página da conta</h2>
+<?php
+
+$smarty = new Template();
+$smarty -> assign('CONTA', 'Página de Conta');
+$smarty -> display('conta.tpl');
+
+?>

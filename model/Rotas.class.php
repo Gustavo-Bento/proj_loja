@@ -30,6 +30,10 @@ Class Rotas{
         return self::get_SiteHOME().'/conta';
     }
 
+    static function pag_Produtos(){
+        return self::get_SiteHOME().'/produtos';
+    }
+
 
     static function get_Pagina(){
         if(isset($_GET['pag'])){
