@@ -24,6 +24,8 @@ $smarty->assign('PAG_CONTATO', Rotas::pag_Contato());
 
 $smarty->assign('TITULO_SITE', Config::SITE_NOME);
 
+$dados = new Conexao();
+
 //display é necessario estar por ultimo no documento.
 $smarty->display('index.tpl');
 ?>
